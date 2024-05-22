@@ -1,0 +1,21 @@
+{
+  "root": "data",
+  "files": [
+    {
+      "path": "files/units.xml",
+      "type": "xml",
+      "metadata": {
+        "key": "index",
+        "fields": ["index", "label", "type", "status"]
+      }
+    },
+    {
+      "path": "files/fileTypes.xml",
+      "type": "xml",
+      "metadata": {
+        "key": "index",
+        "fields": ["index", "label", "type", "status"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileTypes>
+    <fileType index="1" label="PDF" extension=".pdf" status="active" />
+    <fileType index="2" label="Word Document" extension=".docx" status="active" />
+    <fileType index="3" label="Excel Spreadsheet" extension=".xlsx" status="active" />
+    <fileType index="4" label="PowerPoint Presentation" extension=".pptx" status="active" />
+    <fileType index="5" label="Text File" extension=".txt" status="active" />
+    <fileType index="6" label="CSV File" extension=".csv" status="active" />
+    <fileType index="7" label="JPEG Image" extension=".jpg" status="active" />
+    <fileType index="8" label="PNG Image" extension=".png" status="active" />
+    <fileType index="9" label="GIF Image" extension=".gif" status="active" />
+    <fileType index="10" label="MP3 Audio" extension=".mp3" status="active" />
+    <fileType index="11" label="MP4 Video" extension=".mp4" status="active" />
+    <fileType index="12" label="ZIP Archive" extension=".zip" status="active" />
+    <fileType index="13" label="RAR Archive" extension=".rar" status="active" />
+    <fileType index="14" label="HTML Document" extension=".html" status="active" />
+    <fileType index="15" label="XML Document" extension=".xml" status="active" />
+</fileTypes>

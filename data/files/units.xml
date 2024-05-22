@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<units>
+    <unit index="1" label="kilometer" type="distance" status="active" />
+    <unit index="2" label="meter" type="distance" status="active" />
+    <unit index="3" label="centimeter" type="distance" status="active" />
+    <unit index="4" label="millimeter" type="distance" status="active" />
+    <unit index="5" label="mile" type="distance" status="active" />
+    <unit index="6" label="yard" type="distance" status="active" />
+    <unit index="7" label="foot" type="distance" status="active" />
+    <unit index="8" label="inch" type="distance" status="active" />
+    <unit index="9" label="kilogram" type="weight" status="active" />
+    <unit index="10" label="gram" type="weight" status="active" />
+    <unit index="11" label="milligram" type="weight" status="active" />
+    <unit index="12" label="pound" type="weight" status="active" />
+    <unit index="13" label="ounce" type="weight" status="active" />
+    <unit index="14" label="liter" type="volume" status="active" />
+    <unit index="15" label="milliliter" type="volume" status="active" />
+    <unit index="16" label="gallon" type="volume" status="active" />
+    <unit index="17" label="quart" type="volume" status="active" />
+    <unit index="18" label="pint" type="volume" status="active" />
+</units>
