@@ -1,6 +1,6 @@
 import math
 
-from .types import VectorDict
+from .spec import VectorDict
 
 
 def angle(a: VectorDict) -> float:

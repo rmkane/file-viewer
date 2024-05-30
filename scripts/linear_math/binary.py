@@ -1,4 +1,4 @@
-from .types import VectorDict
+from .spec import VectorDict
 
 
 def add(a: VectorDict, b: VectorDict) -> VectorDict:

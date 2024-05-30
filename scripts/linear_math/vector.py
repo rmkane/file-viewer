@@ -3,7 +3,7 @@
 from typing import Union
 
 from .binary import add, cross, divide, dot, multiply, scale, subtract
-from .types import VectorDict
+from .spec import VectorDict
 from .unary import angle, magnitude, normalize
 
 
