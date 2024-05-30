@@ -3,36 +3,36 @@ import math
 from .spec import VectorDict
 
 
-def angle(a: VectorDict) -> float:
+def angle(vector: VectorDict) -> float:
     """
-    Calculate the angle of vector a with respect to the x-axis.
+    Calculate the angle of a vector with respect to the x-axis.
 
-    :param a: The vector to calculate the angle of.
+    :param vector: The vector to calculate the angle of.
     :return: The angle of the vector in radians.
     """
-    return math.atan2(a["y"], a["x"])
+    return math.atan2(vector["y"], vector["x"])
 
 
-def magnitude(a: VectorDict) -> float:
+def magnitude(vector: VectorDict) -> float:
     """
-    Calculate the magnitude of vector a.
+    Calculate the magnitude of a vector.
 
-    :param a: The vector to calculate the magnitude of.
+    :param vector: The vector to calculate the magnitude of.
     :return: The magnitude of the vector.
     """
-    return math.sqrt(a["x"] ** 2 + a["y"] ** 2)
+    return math.sqrt(vector["x"] ** 2 + vector["y"] ** 2)
 
 
-def normalize(a: VectorDict) -> VectorDict:
+def normalize(vector: VectorDict) -> VectorDict:
     """
-    Normalize vector a.
+    Normalize a vector.
 
-    :param a: The vector to normalize.
+    :param vector: The vector to normalize.
     :return: The normalized vector.
     :raises ValueError: If the vector is a zero vector.
     """
-    mag = magnitude(a)
+    mag = magnitude(vector)
     if mag == 0:
         raise ValueError("Cannot normalize a zero vector")
 
-    return {"x": a["x"] / mag, "y": a["y"] / mag}
+    return {"x": vector["x"] / mag, "y": vector["y"] / mag}
